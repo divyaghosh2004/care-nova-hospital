@@ -1,0 +1,126 @@
+.page-header {
+  background: var(--primary-color);
+  padding: 4rem 0 3rem;
+  color: var(--white);
+}
+
+.page-header .section-title {
+  color: var(--white);
+}
+
+.page-header .section-subtitle {
+  color: #bdc3c7;
+}
+
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.filter-btn {
+  padding: 8px 16px;
+  border-radius: 50px;
+  border: 1px solid #e1e1e1;
+  background: var(--white);
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.filter-btn:hover, .filter-btn.active {
+  background: var(--accent-color);
+  color: var(--white);
+  border-color: var(--accent-color);
+}
+
+.doctor-card {
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.doc-img-container {
+  position: relative;
+  height: 250px;
+}
+
+.doc-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.verified-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--accent-color);
+  color: var(--white);
+  padding: 4px 10px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.doc-info {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.domain-tag {
+  background: rgba(10, 35, 66, 0.1);
+  color: var(--primary-color);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.text-warning {
+  color: #f39c12;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.doc-info h3 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+}
+
+.experience {
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+.doc-details {
+  margin-top: auto;
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+  margin-bottom: 8px;
+}
+
+.detail-item.fee {
+  color: var(--accent-color);
+  font-size: 1.1rem;
+}
+
+.w-100 {
+  width: 100%;
+}

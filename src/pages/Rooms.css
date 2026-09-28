@@ -1,0 +1,59 @@
+.room-card {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.room-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.room-info {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.room-info h3 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.2rem;
+}
+
+.room-price {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.room-desc {
+  font-size: 0.95rem;
+  color: var(--text-light);
+}
+
+.amenities strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.amenities ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.amenities ul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.85rem;
+  color: var(--text-dark);
+}
+
+.mt-auto {
+  margin-top: auto;
+}
